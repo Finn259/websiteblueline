@@ -1,12 +1,13 @@
-@import url();
-
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/poppins/Poppins-Medium.otf');
+}
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	overflow: hidden;
-	user-select: none;
 	text-decoration: none;
 	font-family: 'Poppins';
 }
@@ -174,7 +175,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 1.5vh;
 	font-weight: 600;
@@ -210,7 +211,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 1.5vh;
 	font-weight: 600;
@@ -224,7 +225,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 0.85vh;
 	color: white;
@@ -254,7 +255,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 1.5vh;
 	font-weight: 600;
@@ -268,7 +269,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 0.85vh;
 	color: white;
@@ -298,7 +299,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 1.5vh;
 	font-weight: 600;
@@ -312,7 +313,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	white-space: pre;
 	font-size: 0.85vh;
 	color: white;
