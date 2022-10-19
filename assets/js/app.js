@@ -1,13 +1,16 @@
-function checkFromInvite(){
-    $.getJSON("https://servers-frontend.fivem.net/api/servers/single/3r93zr",function(data){
+// Bad :(((
+function checkFromInvite() {
+    $.getJSON("https://servers-frontend.fivem.net/api/servers/single/3r93zr", function (data) {
         $("#a").text(data.Data.players.length);
-    }).fail(function(){
+    }).fail(function () {
         noServerOnline();
     })
 }
 
-function noServerOnline(){
+function noServerOnline() {
     $("#a").text("API Error");
 }
 
-setInterval(function(){checkFromInvite()}, 3000);
+checkFromInvite()
+
+setInterval(function () { checkFromInvite() }, 3000);
